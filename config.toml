@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://wangsong.site/"
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
 builddrafts = false
 canonifyurls = false
 languageCode = "zh_CN"
@@ -9,7 +9,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "小松"
+author = "王崧"
 title = "小松的博客"
 
 theme = "hugo-goa"
@@ -21,20 +21,18 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "小松的博客"
-intro = ""
-description = "真想不到当初我们也讨厌吃苦瓜，今天竟吃得出那睿智愈来愈记挂。"
-
+author = "王崧"
+description = "真想不到当初我们也讨厌吃苦瓜，今天竟吃得出那睿智愈来愈记挂"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
 description = "Simple minimalist theme"
-keywords = ""
+keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "ws1603"
+github = "<ws1603>"
 
 
 ## Extras
@@ -51,14 +49,5 @@ displayrssicon = true
     name = "blog"
     weight = 100
     identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    url = "/posts/"
+
