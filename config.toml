@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
+baseurl = "https:/wangsong.site"
 builddrafts = false
 canonifyurls = false
 languageCode = "zh_CN"
