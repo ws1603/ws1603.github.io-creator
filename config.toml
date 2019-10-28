@@ -1,4 +1,64 @@
-baseURL = "http://example.org/"
-languageCode = "zh-Hans"
+## Basic Configuration
+
+baseurl = "www.wangsong.site"
+builddrafts = false
+canonifyurls = false
+languageCode = "zh_CN"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "小松"
 title = "小松的博客"
-theme = "paper"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "小松的博客"
+intro = ""
+description = "真想不到当初我们也讨厌吃苦瓜，今天竟吃得出那睿智愈来愈记挂。"
+
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = ""
+
+## Social Accounts
+[params.social]
+github = "ws1603"
+
+
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
