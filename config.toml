@@ -1,53 +1,23 @@
-## Basic Configuration
-
-baseurl = "https:/wangsong.site/posts"
-builddrafts = false
-canonifyurls = false
-languageCode = "zh_CN"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
-author = "王崧"
 title = "小松的博客"
+theme = "solar-theme-hugo"
+paginate = 5
+pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
+copyright = ""
 
-theme = "hugo-goa"
-
-## Hugo Built-in Features
-disqusShortname = "https-wangsong.site-posts" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
-enableRobotsTXT = true
-
-## Site Settings
 [params]
-author = "王崧"
-description = "真想不到当初我们也讨厌吃苦瓜，今天竟吃得出那睿智愈来愈记挂"
-dateformat = "Jan 2, 2006"
+  scheme = "preference" # light, dark, gray or preference
+  description = "A wizard is never late"
 
-## Site Meta Settings
-[params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
-
-## Social Accounts
-[params.social]
-github = "<ws1603>"
-
-
-## Extras
-[params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
-poweredby = true
-highlightjs = true
-socialmarkup = true
-toc = true
-displayrssicon = true
-
-## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/posts/"
-
+[menu]
+  [[menu.main]]
+    name = "Feed"
+    url = "/index.xml"
+  [[menu.main]]
+    name = "Repository"
+    url = "https://github.com/bake/solar-theme-hugo/"
+  [[menu.other]]
+    name = "Hugo"
+    url = "https://themes.gohugo.io/solar-theme-hugo/"
+  [[menu.other]]
+    name = "Demo"
+    url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
