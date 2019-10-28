@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "www.wangsong.site"
+baseurl = "https://wangsong.site/"
 builddrafts = false
 canonifyurls = false
 languageCode = "zh_CN"
