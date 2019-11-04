@@ -1,17 +1,59 @@
-title = "小松的博客"
-theme = "solar-theme-hugo"
-paginate = 5
-pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256
-copyright = ""
+## Basic Configuration
 
+baseurl = "https://wangsong.site/"
+builddrafts = false
+canonifyurls = false
+languageCode = "zh_CN"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "王崧"
+title = "小松的笔记"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-  scheme = "gray" # light, dark, gray or preference
-  description = "A wizard is never late"
+author = "王崧"
+intro = ""
+description = "天下事以难而废者十之一,以惰而废者十之九。"
+dateformat = "Jan 2, 2006"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "https://wangsong.site/"
-  [[menu.main]]
-    name = "About"
-    url = "https://wangsong.site/"
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "ws1603"
+email = "18388866683@163.com"
+
+## Extras
+[params.extra]
+copyright = "© 2019. 王崧. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "posts"
+    weight = 100
+    identifier = "blog"
+    url = "./posts"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "./home/"
+
