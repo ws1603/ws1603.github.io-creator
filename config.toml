@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 author = "王崧"
-title = "小松的笔记"
+title = "小松的学习笔记"
 
 theme = "hugo-goa"
 
