@@ -44,7 +44,7 @@ Maven按照约定为所有的包编号：groupId/artifactId/version，方便检�
 
 ![](/post2-1.jpg)
 
-首先对冲突的包进行定位，可以从Maven的Dependency中找到对应的两个包，可以看到此项目中只有两个``org.springframework:spring-web``的包，5.18版本不受其他包所依赖，距离本项目较4.36版本更近，所以Maven是采用了5.18版本，所以我们可以很快地定位到运行项目缺失的类方法是在4.36版本中。
+首先对冲突的包进行定位，可以从Maven的Dependency中找到对应的两个包，可以看到此项目中只有两个``org.springframework:spring-web``的包，5.1.8版本不受其他包所依赖，距离本项目较4.3.6版本更近，所以Maven是采用了5.1.8版本，所以我们可以很快地定位到运行项目缺失的类方法是在4.3.6版本中。
 
 ![](/post2-2.jpg)
 
@@ -52,7 +52,7 @@ Maven按照约定为所有的包编号：groupId/artifactId/version，方便检�
 
 定位到了发生冲突的包，那么接下来就该解决问题了。
 ### 方法一 在最近处添加一个新的包
-在pom.xml文件中引入一个4.36版本的dependency即可
+在pom.xml文件中引入一个4.3.6版本的dependency即可
 
     <dependency>
         <groupId>org.springframework</groupId>
@@ -62,7 +62,7 @@ Maven按照约定为所有的包编号：groupId/artifactId/version，方便检�
     </dependency>
 
 ### 方法二 消除与其冲突的包
-如果5.18版本包不被其他包所依赖，直接在pom.xml文件中将其dependency删去或者注释掉即可；如果5.18版本包受其他包所依赖，可在上级包的dependency中添加如下内容即可将5.18版本包从其中排除不受依赖。
+如果5.1.8版本包不被其他包所依赖，直接在pom.xml文件中将其dependency删去或者注释掉即可；如果5.1.8版本包受其他包所依赖，可在上级包的dependency中添加如下内容即可将5.1.8版本包从其中排除不受依赖。
 
     <exclusions>
                 <exclusion>
