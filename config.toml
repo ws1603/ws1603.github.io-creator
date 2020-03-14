@@ -50,10 +50,14 @@ displayrssicon = true
     name = "posts"
     weight = 100
     identifier = "blog"
-    url = "./posts"
+    url = "./posts/"
 [[menu.main]]
     name = "about"
     identifier = "about"
+    weight = 300
+    url = "./"
+[[menu.main]]
+    name = "notes"
+    identifier = "notes"
     weight = 200
-    url = "./home/"
-
+    url = "./notes"
