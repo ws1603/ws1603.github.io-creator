@@ -48,8 +48,8 @@ Hugo会在content目录下创建post目录，在post目录下创建scala-learnin
 这里的的draft默认状态为true,需要修改为false才能发布。 
 
 ### 查看生成的文章
-草稿状态下 输入命令``hugo sever -D``    
-非草稿状态下 输入``hugo sever``     
+草稿状态下 输入命令``hugo server -D``    
+非草稿状态下 输入``hugo server``     
 可得到如下结果：  
 
 ![](/post1-2.jpg)       
