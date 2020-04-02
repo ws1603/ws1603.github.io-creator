@@ -51,13 +51,21 @@ displayrssicon = true
     weight = 100
     identifier = "blog"
     url = "./posts/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 300
-    url = "./"
+
 [[menu.main]]
     name = "notes"
     identifier = "notes"
     weight = 200
     url = "./notes"
+
+[[menu.main]]
+    name = "problems"
+    identifier = "problems"
+    weight = 300
+    url = "./problems/"
+
+[[menu.main]]
+    name = "leetcode-log"
+    identifier = "leetcode-log"
+    weight = 400
+    url = "./leetcode-log/"
