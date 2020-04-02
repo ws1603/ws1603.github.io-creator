@@ -9,7 +9,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "王崧"
+author = "小松"
 title = "小松的学习笔记"
 
 theme = "hugo-goa"
@@ -21,9 +21,9 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "王崧"
+author = "Rieux"
 intro = ""
-description = "天下事以难而废者十之一,以惰而废者十之九。"
+description = "对未来的真正慷慨，是把一切献给现在。"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -38,7 +38,7 @@ email = "18388866683@163.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2019. 王崧. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2019. 小松. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
