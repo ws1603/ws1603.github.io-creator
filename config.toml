@@ -70,14 +70,3 @@ displayrssicon = true
     weight = 400
     url = "./leetcode-log/"
 
-[[menu.main]]
-    name = "designPartens"
-    identifier = "designPartens"
-    weight =
-    url = "./designPartens/"
-
-[[menu.main]]
-    name = "learnEnglish"
-    identifier = "learnEnglish"
-    weight =
-    url = "./learnEnglish/"

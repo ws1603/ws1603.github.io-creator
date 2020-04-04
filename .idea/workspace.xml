@@ -4,6 +4,8 @@
     <list default="true" id="92fd3b9a-3dd6-4def-a423-d29b8cb6a66e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/designPartens/学习目标.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/design-partens/学习目标.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/learnEnglish/words.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/learn/words.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +25,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hugo-creator\ws1603.github.io-creator\content\learnEnglish" />
+      <recent name="D:\hugo-creator\ws1603.github.io-creator\content\leetcode-log" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
