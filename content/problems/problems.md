@@ -38,3 +38,22 @@ Docker无法切换到linux containers。
 ```
 将空值处理的默认值设置为0(${RankItem.amount!0})，还是报错。后来发现RankItem类中的amount类型被设成了Integer，改为int后可以正常显示。
 ```
+
+#### 正则表达式
+问题描述：
+```
+匹配并删除每行开头的时间戳
+"[2019-08-01 21:24:41] bt3102 (11m:21s)\n"
+                        + "[2019-08-01 21:24:42] TeamCity server version is 2019.1.1 (build 66192)\n"
+                        + "[2019-08-01 21:24:43] Collecting changes in 2 VCS roots (22s)\n";
+```
+如何解决：
+```
+    private static final Pattern pattern = Pattern.compile("(?<=\\n|^)\\[.+?\\] ");
+    public static String process(String log) {
+        Matcher matcher = pattern.matcher(log);
+        return matcher.replaceAll("");
+    }
+
+使用"(?<=\\n|^)\\[.+?\\] "匹配每行开头时间戳，替换时不会替换\n。
+```
